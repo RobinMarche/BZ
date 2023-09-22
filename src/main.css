@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+#hero{
+    background-image: url(./assets/devanture.jpg);
+}
+
+#bar{
+    font-family: 'Fuggles', 'cursive';
+}
+
+#prez{
+    font-family: 'Quicksand', sans-serif;
+    line-height: 1.5;
+    color: white;
+}
+
+body{
+    background-color: rgb(17, 17, 17);
+}
+
+#bar-background{
+    background-image: url(./assets/bar.jpg);
+    background-size: cover;
+    background-position: top;
+}
